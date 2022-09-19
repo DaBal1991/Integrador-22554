@@ -1,3 +1,20 @@
 nav{
     background-color: rgb(53,58,64);
+    z-index: 9999;
+}
+
+#fondo{
+    background-image: url("../img/ba1.jpg");
+    z-index: -1;
+    filter: brightness(50%);
+    margin-top: -11%;
+    position: relative;
+}
+
+#mensajeBienvenida{
+    position: absolute;
+    text-align: end;
+    z-index: 100;
+    top: 44%;
+    right: 11%
 }
