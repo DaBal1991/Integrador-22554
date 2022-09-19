@@ -3,18 +3,39 @@ nav{
     z-index: 9999;
 }
 
+
 #fondo{
-    background-image: url("../img/ba1.jpg");
     z-index: -1;
     filter: brightness(50%);
-    margin-top: -11%;
-    position: relative;
 }
 
 #mensajeBienvenida{
-    position: absolute;
-    text-align: end;
     z-index: 100;
-    top: 44%;
-    right: 11%
 }
+
+#honolulu{
+    background-color: rgb(53,58,64);
+}
+
+/*
+    <section id="intro" class="col-lg-12 text-white position-relative">
+
+        <img id="fondo" class="img-fluid" src="./img/ba1.jpg" alt="">
+    
+        <div id="mensajeBienvenida" class="container row-align-center">
+            
+            <p class="fs-4 text pb-2 col-lg-4 text-end position-absolute top-50 start-100">
+                Bs As llega por primera vez a Argentina. Un evento para compartir con
+                nuestra comunidad el conocimiento y experiencia de los expertos que
+                están creando el futuro de Internet. Ven a conocer a miembros del
+                evento, a otros estudiantes de Codo a Codo y los oradores del primer
+                nivel que tenemos para ti. Te esperamos!
+            </p>
+
+            <button type="button" class="btn btn-outline-light btn-lg p-2 fs-4 text">Quiero ser orador</button>
+            <button type="button" class="btn btn-success btn-lg p-2 fs-4 text">Comprar tickets</button>
+
+        </div>
+
+    </section>
+    */
