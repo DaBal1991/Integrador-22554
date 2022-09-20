@@ -1,4 +1,4 @@
-html{
+*{
     margin: 0;
     padding: 0;
 }
@@ -39,16 +39,19 @@ footer{
     background-color: rgb(150,201,62);
 }
 
+.palacio{
+    filter: brightness(50%);
+    margin-top: -10%;
+    position: relative;
+}
+
+.mensajeBienvenida{
+    position: absolute;
+    top: 50%;
+    right: 10%
+}
+
 /*
-                    <img class="img-fluid col-lg-6" src="./img/honolulu.jpg" alt="">
-                    <h1 class="text-start text-white col-lg-6">Bs As - Octubre</h1>
-                    <p class="text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. honolulu
-                    es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
-                    urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado 
-                    consolidada que cubre toda la ciudad (aproximadamente 600 km<sup>2</sup> de superficie).</p>
-
-                    <button type="button" class="btn btn-outline-light btn-lg p-2 fs-5 text">Conocé más</button>
-
     <section id="intro" class="col-lg-12 text-white position-relative">
 
         <img id="fondo" class="img-fluid" src="./img/ba1.jpg" alt="">
