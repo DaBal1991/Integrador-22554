@@ -48,16 +48,16 @@
     </nav>
 
 
-    <article class="oradores">
+    <article class="col-lg-12">
 
-        <div class="container-expand">
+        <div class="container-fluid">
             <p class="text-center pt-4">CONOCE A LOS</p>
             <h1 class="text-center pb-4">ORADORES</h1>
 
             <div class="row d-flex justify-content-center">
 
                 <div class="col-lg-3 border border-black row d-flex justify-content-center">
-                    <img class="img-fluid" src="./img/steve.jpg" alt="" width="350">
+                    <img class="img-fluid" src="./img/steve.jpg" alt="">
                     <div class="d-flex justify-content-star">
                         <div><button type="button" class="btn btn-warning fw-bold me-2 mt-2">JavaScript</button></div>
                         <div><button type="button" class="btn btn-success fw-bold text-white mt-2">React</button></div>
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="col-lg-3 border border-black mx-5 row d-flex justify-content-center">
-                    <img class="img-fluid" src="./img/bill.jpg" alt="" width="350">
+                    <img class="img-fluid" src="./img/bill.jpg" alt="">
                     <div class="d-flex justify-content-star">
                         <div><button type="button" class="btn btn-warning fw-bold me-2 mt-2">JavaScript</button></div>
                         <div><button type="button" class="btn btn-success fw-bold text-white mt-2">React</button></div>
@@ -85,7 +85,7 @@
                 </div>
  
                 <div class="col-lg-3 border border-black row d-flex justify-content-center">
-                    <img class="img-fluid" src="./img/ada.jpeg" alt="" width="350">
+                    <img class="img-fluid" src="./img/ada.jpeg" alt="">
                     <div class="d-flex justify-content-star">
                         <div><button type="button" class="btn btn-secondary fw-bold me-2 mt-2 text-white">Negocios</button></div>
                         <div><button type="button" class="btn btn-danger fw-bold text-white mt-2">Startups</button></div>
@@ -102,19 +102,15 @@
         </div>
     </article>
 
+    <section class="mt-5">
 
-    <article class="row-expand mt-5 col-lg-12">
+        <div class="container-fluid row d-flex col-lg-12 mx-auto">
 
-        <div class="container-fluid">
+            <div class="col-lg-6">
+                <img class="img-fluid" src="./img/honolulu.jpg" alt="">
+            </div>
 
-        <div class="row d-flex justify-content-center">
-
-        <span class="col-lg-6 d-flex row justify-content-center">
-            <img class="img-fluid" src="./img/honolulu.jpg" alt="">
-        </span>
-
-        <span class="col-lg-6 row d-flex justify-content-center">
-            <div id="honolulu" class="container-fluid">
+            <div id="honolulu" class="col-lg-6">
                 <h1 class="text-start text-white">Bs As - Octubre</h1>
                 <p class="text-white">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. honolulu
                     es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
@@ -123,13 +119,88 @@
 
                 <button type="button" class="btn btn-outline-light btn-lg p-2 fs-5 text">Conocé más</button>
             </div>
-        </span>
 
-    </div>
-    </div>
-    </article>
-    <section class="formulario">ASD</section>
-    <footer>ASD</footer>
+        </div>
+
+        <div class="container-">
+
+        </div>
+
+    </section>
+    
+    <section class="formulario">
+
+        <div class="container-fluid">
+            <p class="text-center pt-4">CONVÍERTETE EN UN</p>
+            <h1 class="text-center">ORADOR</h1>
+
+            <p class="text-center">Anótate como orador para dar una <span class="charla">charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+
+            <div class="row mx-auto justify-content-center align-items-center">
+
+                <div class="mb-3 col-lg-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Nombre">
+                </div>
+
+                <div class="mb-3 col-lg-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Apellido">
+                </div>
+
+            </div>
+
+            <div class="row mx-auto justify-content-center align-items-center">
+                <div class="mb-3 col-lg-6">
+                    <textarea class="form-control" placeholder="Sobre qué quieres hablar?" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label id="aclaracion" for="floatingTextarea2">Recuerda incluir un título para tu charla</label>
+                </div>
+            </div>
+
+            <div class="row mx-auto justify-content-center align-items-center">
+                <div class="mb-3 col-lg-6">
+                    <button id="envio" type="button" class="btn text-white col-lg-12">Enviar</button>
+                </div>
+            </div>
+
+    </section>
+
+    <footer class="navbar navbar-expand-lg">
+        
+        <div class="container-fluid">
+
+            <ul class="navbar-nav fs-5 text mx-auto col-lg-12 justify-content-center align-items-center">
+
+                <li class="nav-item mx-3 col-lg-1">
+                    <a class="nav-link text-white text-center">Preguntas frecuentes</a>
+                </li>
+
+                <li class="nav-item mx-3 col-lg-1 text-center">
+                    <a class="nav-link text-white">Contáctanos</a>
+                </li>
+
+                 <li class="nav-item mx-3 col-lg-1 text-center">
+                    <a class="nav-link text-white">Prensa</a>
+                </li>
+
+                <li class="nav-item  mx-3 col-lg-1 text-center">
+                    <a class="nav-link text-white">Conferencias</a>
+                </li>
+
+                <li class="nav-item mx-3 col-lg-1 text-center">
+                    <a class="nav-link text-white">Términos y condiciones</a>
+                </li>
+
+                <li class="nav-item  mx-3 col-lg-1 text-center">
+                    <a class="nav-link text-white">Privacidad</a>
+                </li>
+
+                <li class="nav-item  mx-3 col-lg-1 text-center">
+                    <a class="nav-link text-white">Estudiantes</a>
+                </li>
+        
+            </ul>
+        </div>
+
+    </footer>
 
 </body>
 </html>
