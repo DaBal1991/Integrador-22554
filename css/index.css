@@ -24,7 +24,7 @@ footer{
     font-size: 14px;
 }
 
-#envio{
+#envio, #btnBorrar, #btnResumen{
     background-color: rgb(150,201,62);
 }
 
